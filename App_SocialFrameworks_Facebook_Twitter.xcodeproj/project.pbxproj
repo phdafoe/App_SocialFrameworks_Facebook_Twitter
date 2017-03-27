@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8B0158221E830FAF00981351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0158211E830FAF00981351 /* AppDelegate.swift */; };
-		8B0158241E830FAF00981351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0158231E830FAF00981351 /* ViewController.swift */; };
 		8B0158271E830FAF00981351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0158251E830FAF00981351 /* Main.storyboard */; };
 		8B0158291E830FAF00981351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0158281E830FAF00981351 /* Assets.xcassets */; };
 		8B01582C1E830FAF00981351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B01582A1E830FAF00981351 /* LaunchScreen.storyboard */; };
+		8B0158341E8318E000981351 /* FTPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0158331E8318E000981351 /* FTPostViewController.swift */; };
+		8B62D1A51E897F520066E2D0 /* APIUTILS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B62D1A41E897F520066E2D0 /* APIUTILS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B01581E1E830FAF00981351 /* App_SocialFrameworks_Facebook_Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_SocialFrameworks_Facebook_Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0158211E830FAF00981351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B0158231E830FAF00981351 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B0158261E830FAF00981351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B0158281E830FAF00981351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B01582B1E830FAF00981351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B01582D1E830FAF00981351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0158331E8318E000981351 /* FTPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTPostViewController.swift; sourceTree = "<group>"; };
+		8B62D1A41E897F520066E2D0 /* APIUTILS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIUTILS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				8B0158211E830FAF00981351 /* AppDelegate.swift */,
-				8B0158231E830FAF00981351 /* ViewController.swift */,
+				8B62D1A41E897F520066E2D0 /* APIUTILS.swift */,
+				8B0158331E8318E000981351 /* FTPostViewController.swift */,
 				8B0158251E830FAF00981351 /* Main.storyboard */,
 				8B0158281E830FAF00981351 /* Assets.xcassets */,
 				8B01582A1E830FAF00981351 /* LaunchScreen.storyboard */,
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B0158241E830FAF00981351 /* ViewController.swift in Sources */,
+				8B0158341E8318E000981351 /* FTPostViewController.swift in Sources */,
+				8B62D1A51E897F520066E2D0 /* APIUTILS.swift in Sources */,
 				8B0158221E830FAF00981351 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +301,7 @@
 				8B0158321E830FAF00981351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
